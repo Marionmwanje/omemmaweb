@@ -1,0 +1,721 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* Home */
+body{
+    width: 100%;
+    height: 100%;
+}
+.headerTop{
+    margin: 0 auto;
+    /* background-image: url('/image/Rectangle\ 1.png'); */
+    /* background-size: cover;
+    background: no-repeat; */
+    /* background-color: blueviolet; */
+    height: 800px;
+    
+}
+/* .headerTop img{ */
+    /* width: 100%;
+     height: 683px;  */
+
+/* } */
+.FirstNav{
+    width: 100%;
+    height: 100%;
+}
+.FirstNav img{
+    height: 678px;
+    width: 100%;
+    left: -598px;
+    /* top: -354px; */
+    border-radius: 0px;
+    
+}
+.black{
+    /* position: absolute; */
+    /* top: 40; */
+    width: 100%;
+    height: 134px;
+    /* bottom: 70px; */
+    background: #000000;
+}
+
+.FirstNav .nav{
+    /* position: relative; */
+    height: 46px;
+    left: -598px;
+    /* top: 50px; */
+    border-radius: 0px;
+    /* position: absolute; */
+    width: 100%;
+  
+    background: #041515;
+    /* bottom: 70px; */
+}
+.ommem{
+    position: absolute;
+    display: flex;
+    background: yellow;
+}
+.ommem h2{
+    margin-top: 50px;
+    position: absolute;
+    width: 149px;
+    height: 45px;
+    left: 30px;
+    font-family: 'Harlow Solid Italic';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+
+    color: #A18C5F;
+}
+.ommem h3{
+    margin-top: 30px;
+    margin-left: 1020PX;
+    position: absolute;
+    width: 145px;
+    height: 20px;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.ommem h4{
+    margin-top: 30px;
+    margin-left: 790PX;
+    position: absolute;
+    width: 145px;
+    height: 20px;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.tel h3{
+    left: 1280px;
+}
+.days h3{
+    top: 20px;
+    left: 1060px;
+    position: absolute;
+    width: 100px;
+    height: 19px;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.phone h4{
+    top: 40px;
+    left: 1183px;
+    position: absolute;
+    width: 100px;
+    height: 19px;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.nav .links .home {
+    display: flex;
+    margin-top: 5px;
+    left: 30px;
+    position: absolute;
+    width: 51px;
+    height: 23px;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    cursor: pointer;
+}
+.nav .links .home a{
+    color: #f4f4f4;
+    margin-right: 70px;
+    font-size: 24px;
+    text-decoration: none;
+}
+/* .nav .links .home h1{
+    color: #F4F4F4;
+} */
+.links .home a:hover{
+    color: #A18C5F;
+}
+.about{
+    top: 70px;
+    left: 280px;
+    position: absolute;
+    width: 51px;
+    height: 23px;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.care{
+    top: 70px;
+    left: 380px;
+    position: absolute;
+    width: 51px;
+    height: 23px;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+/* About */
+.aboutUs{
+    height: 668px;
+    width: 100%;
+    left: -598px;
+    top: 95px;
+    border-radius: 0px;
+    background-color: #f4f4f4;
+    
+}
+.aboutUsinn{
+    height: 49px;
+    width: 387px;
+    left: -585px;
+    top: 148px;
+    border-radius: nullpx;
+
+}    
+.aboutUsinn h2 img{
+    width: 330px;
+    height: 49px;
+    margin-left: 20.83%;
+    margin-top: 105px;
+    font-family: 'Harlow Solid Italic';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 98px;
+    color: #041515;
+    font-family: Harlow Solid Italic;
+    text-align: left;
+}
+.aboutLaw{
+    height: 375px;
+    width: 383px;
+    left: -237px;
+    top: 140px;
+    border-radius: 0px;
+}
+.aboutLaw img{
+    margin-bottom: -480px;
+    height: 375px;
+    width: 383px;
+    background: url(../image/aboutlawyers.png);
+    margin-left: 800px;
+}
+.content{
+    height: 113px;
+    width: 449px;
+    margin-left: 94px;
+    margin-top: -215px;
+    border-radius: undefinedpx;
+    justify-content: center;
+}
+.content h1{
+    width: 349px;
+    height: 193px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+
+}
+.aboutBtn{
+    height: 36px;
+    width: 150px;
+    margin-left: 94px;
+    margin-top: 200px;
+    border-radius: 0px;
+
+}
+.aboutBtn img{
+    width: 230px;
+    height: 36px;
+    background: #A18C5F;
+    cursor: pointer;
+}
+.aboutBtn h2{
+    margin-left: 44px;
+    margin-top: -40px;
+    width: 198px;
+    height: 30px;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Service */
+.service{
+    height: 1000px;
+    width: 100%;
+    left: -597px;
+    top: 542px;
+    border-radius: 0px;
+    background-color: aqua;
+
+}
+.serviceinn{
+    width: 100%;
+    min-height: 900px;
+    background: #A18C5F;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 80px;
+}
+.serviceinn h1{
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 400PX;
+        font-family: 'Harlow Solid Italic';
+        font-style: italic;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 38px;
+        color: #041515;
+        text-align: center;
+    
+    
+}
+
+.blacky{
+    background-color: #000000;
+    height: 400px;
+    width: 335px;
+    margin: 30px 20px;
+}
+.btop{
+    height: 30%;
+    background-color: #000000;
+}
+.btop img{
+    margin-left: 40%;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.bdown{
+    height: 70%;
+    background-color: #041515;
+    cursor: pointer;
+}
+.bdown:hover{
+    transition: all;
+}
+.bdown h3{
+    
+    left: 10px;
+    font-family: 'Harlow Solid Italic';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 20px 50px;
+}
+.bdown h4{
+   
+    height: 22px;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    flex-direction: column;
+    line-height: 21px;
+    line-height: 50px;
+    color: #FFFFFF;
+    padding: 10px 30px;
+}
+
+/* OUR TEAM */
+.ourTeam{
+    height: 550px;
+width: 100%;
+left: -597px;
+top: 1088px;
+border-radius: 0px;
+
+}
+.ourTeaminn{
+    width: 100%;
+height: 550px;
+background: #F4F4F4;
+}
+.law{
+    height: 59px;
+    width: 230px;
+    left: -316px;
+    top: 1131px;
+    border-radius: nullpx;
+
+}
+.law h3{
+    width: 230px;
+    height: 49px;
+    margin-left: 580px;
+    margin-top: 5px;
+    font-family: 'Harlow Solid Italic';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #041515;
+    font-family: Harlow Solid Italic;
+    text-align: left;
+
+}
+.law img{
+    height: 171px;
+width: 176px;
+margin-left: 528px;
+top: 1173px;
+border-radius: 0px;
+padding: 20px 10px
+}
+
+
+/* CONTACT US */
+.contactUs{
+    height: 895px;
+    width: 100%;
+    left: -597px;
+    top: 1638px;
+    border-radius: 0px;
+
+}
+.contactUsinn {
+    width: 100%;
+    height: 995px;
+    
+    background: #041515;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    color: aqua;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.contactUsinn img{
+    position: relative;
+    height: 154px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0px;
+
+}
+.conShape{
+    /* position: absolute; */
+    height: 40px;
+    width: 201px;
+    margin-left: 600px;
+    margin-top: 40px;
+    margin-left: 550px;
+    border-radius: 0px;
+    border: 1px solid #FFFFFF;
+    align-items: center;
+    cursor: pointer;
+}
+
+.conShape h1{
+    height: 60px;
+    width: 148px;
+    margin-left: 31px;
+    margin-top: -9px;
+    border-radius: undefinedpx;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 60px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.conShape h1:hover{
+    color: #A18C5F;
+}
+.contactInfo h1{
+    height: 45px;
+    width: 275px;
+    left: -330px;
+    margin-top: 22px;
+    margin-left: 531px;
+    border-radius: undefinedpx;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #A18C5F;
+    cursor: pointer;
+}
+.cont-col{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    top: 300px;
+}
+.contact-menu{
+    margin: 5px;
+    float: left;
+    width: 390px;
+    /* background-color: #f4f4f4; */
+}
+.contact-menu img{
+    width: 40px;
+    height: 54px;
+    left: 30.83%;
+    right: 25%;
+    top: 80.17%;
+    
+    
+}
+.calls{
+    position: absolute;
+    height: 38px;
+    width: 62px;
+    left: 160px;
+    top: 3420px; 
+    border-radius: nullpx;
+
+}
+.calls h4{
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    margin-top: 34px;
+    color: #A18C5F;
+    margin-left: 30%;
+}
+.calls a{
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.loca{
+    position: absolute;
+    height: 38px;
+    width: 62px;
+    left: 572px;
+    top: 3452px; 
+    border-radius: nullpx;
+}
+.loca h4{  
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    /* identical to box height */
+    color: #A18C5F;
+}
+.loca a{
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-decoration: none;    
+}
+.mailing{
+    position: absolute;
+    height: 38px;
+    width: 62px;
+    left: 986px;
+    top: 3452px; 
+    border-radius: nullpx;
+}
+.mailing h4{
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #A18C5F;
+
+}
+.mailing a{
+    margin-left: 1px;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer h1{
+    height: 34px;
+    width: 526px;
+    margin-left: 553px;
+    margin-top: 252px; 
+    border-radius: nullpx;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.footer h2{
+    height: 34px;
+    width: 526px;
+    margin-left: 453px;
+    margin-top: 12px; 
+    border-radius: nullpx;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.conFooter h1{
+    height: 45px;
+    width: 215px;
+    margin-left: 501px;
+    margin-top: 122px;
+    border-radius: nullpx;
+    width: 295px;
+    height: 45px;
+    font-family: 'Hind Guntur';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 45px;
+    color: #A18C5F;    
+}
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+
